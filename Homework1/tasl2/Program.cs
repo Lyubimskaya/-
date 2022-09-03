@@ -11,8 +11,14 @@ Console.WriteLine("Введите число 2:");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
 if (numberA > numberB)
-Console.WriteLine($"Max = {numberA}");
+{
+    Console.WriteLine($"Max = {numberA}");
+}
 else if (numberB > numberA)
+{
 Console.WriteLine($"Max = {numberB}");
+}
 if (numberA == numberB)
+{
 Console.WriteLine("Числа равны");
+}
