@@ -4,7 +4,7 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Введите число:");
+Console.WriteLine("Введите трехзначное число:");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int digit1 = number % 100;
