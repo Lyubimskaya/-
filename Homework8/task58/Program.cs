@@ -5,7 +5,7 @@ int InputInt(string output)
     Console.Write(output);
     return int.Parse(Console.ReadLine());
 }
-int size = InputInt("Введите размерность матриц: ");
+int size = InputInt("Введите размер матриц: ");
 int[,] array = new int[size,size];
 int[,] secondArray = new int[size,size];
 int[,] resultArray = new int[size,size];
