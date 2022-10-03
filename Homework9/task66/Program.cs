@@ -17,4 +17,4 @@ int SumDigits(int m, int n)
 
 int m = ReadNumber("Введите M:");
 int n = ReadNumber("Введите N:");
-Console.WriteLine($"Сумма элементов в промежутке от {m} до {n} = {SumDigits(m, n)}");
+Console.WriteLine($"Сумма элементов = {SumDigits(m, n)}");
